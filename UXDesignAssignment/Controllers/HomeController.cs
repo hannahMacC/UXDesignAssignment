@@ -13,12 +13,32 @@ namespace UXDesignAssignment.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Home()
         {
             return View();
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult SaunaFinder()
+        {
+            return View();
+        }
+
+        public IActionResult Revies()
+        {
+            return View();
+        }
+
+        public IActionResult FAQ()
         {
             return View();
         }
