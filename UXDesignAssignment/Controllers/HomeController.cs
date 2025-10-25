@@ -33,7 +33,7 @@ namespace UXDesignAssignment.Controllers
             return View();
         }
 
-        public IActionResult Revies()
+        public IActionResult Reviews()
         {
             return View();
         }
