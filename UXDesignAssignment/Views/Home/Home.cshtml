@@ -3,6 +3,60 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Loch and Löyly</h1>
+    <p class=" fw-bold">Discover the best saunas across Scotland, from wild lochsides to luxury retreats</p>
+    
+    <a asp-controller="Home" asp-action="SaunaFinder" class="btn btn-outline-dark">
+        Find a Sauna
+    </a>
+    <a asp-controller="Home" asp-action="About" class="btn btn-outline-dark">
+        Learn More
+    </a>
+    <section class="container my-5">
+        <h2 class="text-center mb-4"> Why Loch and Löyly</h2>
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <h3 class="h5">The Cold Dook</h3>
+                    <p class="mb-0">Step from 90–100°C heat into a loch or the North Sea for the classic contrast.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <h3 class="h5">Authentic Löyly</h3>
+                    <p class="mb-0">Wood-fired stoves, soft steam, and aromatic air for deep relaxation and recovery.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <h3 class="h5">Community & Wellness</h3>
+                    <p class="mb-0">Unwind with friends, meet locals, and connect with nature in all seasons.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class= "text-center mb-4">Featured Saunas</h2>
+        <div id="saunaCarousel" class=" ="carousel slide" data-bs-ride="carousel" data-bs-interval = "6000">
+            @* TODO: populate saunas and then figure out the carousel *@
+        </div>
+    </section>
+
+    <section class= "container my-5">
+        <h2 class ="text-center mb-4">How it works</h2>
+        <ol class=" list-group list-group-numbered">
+            <li class=" list-group-item"> Explore the map to find saunas by region and facilites</li>
+            <li class="list-group-item">Check availability on each sauna's page or contact the host</li>
+            <li class="list-group-item">Enjoy the cycle: heat - cold plunge - rest - repeat</li>
+        </ol>
+    </section>
+
+    <section clss ="container my-5">
+        <div class=" card p-4 bg-light border rounded">
+            <p class=" mb-0"> 
+                Outdoor saunas are emerging across Scotland’s lochs, beaches, and forests. <strong>Loch & Löyly</strong> brings them together — helping you discover new spots, learn the culture and safety, and share your experiences.
+            </p>
+        </div>
+    </section>
+
 </div>
