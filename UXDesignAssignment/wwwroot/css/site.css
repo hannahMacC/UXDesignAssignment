@@ -34,3 +34,7 @@ body {
     background-color: steelblue;
     border-color: steelblue;
 }
+
+#map {
+    height: 600px;
+}
