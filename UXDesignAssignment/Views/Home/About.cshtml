@@ -3,6 +3,32 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <section class="mb-5" id="Hero">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+                <h1 class="display-5 fw-bold"> 
+                    About <span style="color: steelblue">Loch and Löyly</span>
+                </h1>
+                <p class="text-start fs-5">
+                    We connect Scotland’s love for wild water with the Nordic art of heat. 
+                    Loch and Löyly helps you discover authentic sauna experiences and honest reviews, 
+                    so you can relax, recover, and reconnect with nature.
+                </p>
+                <div class="d-flex gap-2">
+                    <a asp-controller="Home" asp-action="SaunaFinder" class="btn btn-primary">
+                        Find a Sauna
+                    </a>
+                    <a asp-controller="Home" asp-action="Reviews" class="btn btn-outline-dark">
+                        Read Reviews
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="rounded-4 border"> 
+                    <img src="/Images/generatedSauna.png" alt="heroSauna" class="w-100 object-fit-cover rounded-4" />
+                </div>
+            </div>
+        </div>
+    </section>
 </div>

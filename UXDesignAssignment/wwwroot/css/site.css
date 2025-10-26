@@ -29,3 +29,8 @@ body {
     font-weight: bold;
     color: steelblue !important;
 }
+
+.btn-primary{
+    background-color: steelblue;
+    border-color: steelblue;
+}

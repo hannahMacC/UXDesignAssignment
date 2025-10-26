@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,13 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Home.cshtml",
               "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-25T10:01:43.731Z",
               "EditorCaption": ""
@@ -104,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "wwwroot\\css\\site.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-10-24T21:12:12.432Z",
               "EditorCaption": ""
@@ -156,26 +156,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\About.cshtml*",
+              "RelativeToolTip": "Views\\Home\\About.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-24T20:12:45.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-24T20:08:53.674Z",
               "EditorCaption": ""
