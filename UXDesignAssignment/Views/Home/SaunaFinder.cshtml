@@ -65,9 +65,35 @@
             <div id="map">
             </div>
         </div>
-    </div>
-    
+        <div class="col-lg-5">
+            <h2 class="h5"> Saunas</h2>
+            <div id="cards" class="row g-3"></div>
+        </div>
+    </div>   
 </section>
+
+<template id="cardTpl">
+    <div class="col-12">
+        <article class="card h-100 sauna-card">
+            <div class="row g-0 align-items-stretch">
+                <div class="col-5">
+                    <img class="card-img-fixed" alt="Sauna image" />
+                </div>
+                <div class="col-7">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="h6 mb-1 title"></h3>
+                        <p class="small text-secondary mb-1 location"></p>
+                        <p class="small flex-grow-1 desc"></p>
+                        <div class="mt-auto d-flex gap-2">
+                            <button class="btn btn-sm btn-outline-dark focusBtn" type="button">Focus on map</button>
+                            <a class="btn btn-sm btn-dark more" target="_blank" rel="noopener">Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</template>
 
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -105,6 +131,26 @@
       if (bounds.length) map.fitBounds(bounds, { padding: [20, 20] });
     }
 
+    const cardsWrap = document.getElementById('cards');
+    const tpl = document.getElementById('cardTpl');
+
+    function renderCards(list) {
+      cardsWrap.innerHTML = '';
+      list.forEach((s, idx) => {
+        const node = tpl.content.cloneNode(true);
+        const root = node.querySelector('.sauna-card');
+        root.dataset.index = idx;
+
+        node.querySelector('img').src = s.imageUrl || 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbXk4PgQjrHdMJm45TRPKlDK0Fv4oCnNjftA&s';
+        node.querySelector('.title').textContent = s.name ?? 'Unnamed Sauna';
+        node.querySelector('.location').textContent = [s.location, s.region].filter(Boolean).join(' • ');
+        node.querySelector('.desc').textContent = s.description ?? '';
+        node.querySelector('.more').href = s.website || '#';
+
+        cardsWrap.appendChild(node);
+      });
+    }
 
     addMarkers(SAUNAS);
+    renderCards(SAUNAS);
 </script>
