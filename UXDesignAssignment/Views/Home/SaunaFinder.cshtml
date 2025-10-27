@@ -13,6 +13,52 @@
     <p>Use the filters and map to explore Scotland's outdoor saunas. Click a pin for full details of the sauna</p>
 </div>
 
+<div class="container">
+    <div class="row g-4 mb-3">
+        <div class="col">
+            <label class="form-label">Region</label>
+            <select id="regionFilter" class="form-select">
+                <option>All Regions</option>
+                <option>Highlands</option>
+                <option>Islands</option>
+                <option>Central Belt</option>
+                <option>North East</option>
+                <option>South West</option>
+
+            </select>
+        </div>
+        <div class="col">
+            <label class="form-label">Water Access</label>
+            <select id="waterFilter" class="form-select">
+                <option>Any</option>
+                <option>Loch/Sea</option>
+                <option>Plunge Tub</option>
+                <option>No Direct Water</option>
+            </select>
+        </div>
+        <div class="col">
+            <label class="form-label">Heat Source</label>
+            <select id="heatFilter" class="form-select">
+                <option>Any</option>
+                <option>Wood-Fired</option>
+                <option>Electric</option>
+            </select>
+        </div>
+        <div class="col">
+            <label class="form-label">&nbsp;</label>
+            <button id="nearMe" class="btn btn-outline-dark w-100">
+                Near me
+            </button>
+        </div>
+        <div class="col">
+            <label class="form-label">&nbsp;</label>
+            <button id="resetFilters" class="btn btn-primary w-100">
+                Reset
+            </button>
+        </div>
+    </div>
+</div>
+
 <section>
     <div class=" row g-4">
         <div class="col-lg-7">
