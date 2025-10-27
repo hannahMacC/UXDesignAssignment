@@ -30,7 +30,9 @@ namespace UXDesignAssignment.Controllers
 
         public IActionResult SaunaFinder()
         {
-            return View();
+            var saunas = SaunaData.All;
+
+            return View(saunas);
         }
 
         public IActionResult Reviews()

@@ -1,4 +1,6 @@
-﻿@{
+﻿@using System.Text.Json
+@model List<Sauna>
+@{
     ViewData["Title"] = "Find a Sauna";
 }
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -27,10 +29,36 @@
         crossorigin=""></script>
 
 <script>
+
+    const SAUNAS = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(
+        Model,
+        new System.Text.Json.JsonSerializerOptions { PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase }
+    ));
+
     var map = L.map('map').setView([56.8, -4.3], 6);
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
+
+    // var marker = L.marker([57.14, -2.07]).addTo(map); test marker works
+
+    const markerLayer = L.layerGroup().addTo(map);
+
+    function addMarkers(list) {
+      markerLayer.clearLayers();
+      const bounds = [];
+      list.forEach(s => {
+        if (typeof s.latitude !== 'number' || typeof s.longitude !== 'number') return;
+        const m = L.marker([s.latitude, s.longitude])
+          .addTo(markerLayer)
+          .bindPopup(`<strong>${s.name ?? 'Unnamed Sauna'}</strong><br>${s.location ?? ''}`);
+        bounds.push([s.latitude, s.longitude]);
+      });
+      if (bounds.length) map.fitBounds(bounds, { padding: [20, 20] });
+    }
+
+
+    addMarkers(SAUNAS);
 </script>
