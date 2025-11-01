@@ -1,15 +1,16 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model List<Sauna>
 
 <div class="text-center">
     <h1 class="display-4">Loch and Löyly</h1>
     <p class=" fw-bold">Discover the best saunas across Scotland, from wild lochsides to luxury retreats</p>
     
-    <a asp-controller="Home" asp-action="SaunaFinder" class="btn btn-outline-dark">
+    <a asp-controller="Home" asp-action="SaunaFinder" class="btn btn-outline-primary">
         Find a Sauna
     </a>
-    <a asp-controller="Home" asp-action="About" class="btn btn-outline-dark">
+    <a asp-controller="Home" asp-action="About" class="btn btn-outline-primary">
         Learn More
     </a>
     <section class="container my-5">
@@ -37,8 +38,39 @@
     </section>
     <section class="container my-5">
         <h2 class= "text-center mb-4">Featured Saunas</h2>
-        <div id="saunaCarousel" class=" ="carousel slide" data-bs-ride="carousel" data-bs-interval = "6000">
-            @* TODO: populate saunas and then figure out the carousel *@
+        <div id="saunaCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval = "5000">
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Count; i+=3)
+                {
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <div class="row g-4">
+                        @foreach(var sauna in Model.Skip(i).Take(3))
+                        {
+                            <div class="col-md-4 d-flex">
+                                <article class="card h-100 flex-fill">
+                                    <img src="@sauna.ImageUrl" class="card-img-top card-img-fixed" alt="@sauna.Name">
+                                    <div class="card-body d-flex flex-column">
+                                        <h3 class="h5">@sauna.Name</h3>
+                                        <p class="small text-secondary">@sauna.Location • @sauna.Region</p>
+                                        <p class="mb-3">@sauna.Description</p>
+                                        <a class="btn btn-sm btn-outline-dark mt-auto"
+                                           asp-controller="Home" asp-action="SaunaFinder">View on Map</a>
+                                    </div>
+                                </article>
+                            </div>
+                        }
+                    </div>
+                  </div>
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#saunaCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#saunaCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
@@ -51,7 +83,7 @@
         </ol>
     </section>
 
-    <section clss ="container my-5">
+    <section class ="container my-5">
         <div class=" card p-4 bg-light border rounded">
             <p class=" mb-0"> 
                 Outdoor saunas are emerging across Scotland’s lochs, beaches, and forests. <strong>Loch & Löyly</strong> brings them together — helping you discover new spots, learn the culture and safety, and share your experiences.

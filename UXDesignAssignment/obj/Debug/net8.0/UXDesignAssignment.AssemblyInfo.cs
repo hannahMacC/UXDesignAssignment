@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UXDesignAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ff0eef55fa86fc1cb4f7da31589c6ccb031e15e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84c1086fe3176a0bb30ed7a9bc71c9fd80bc0a42")]
 [assembly: System.Reflection.AssemblyProductAttribute("UXDesignAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UXDesignAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

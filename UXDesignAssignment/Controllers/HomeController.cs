@@ -15,7 +15,9 @@ namespace UXDesignAssignment.Controllers
 
         public IActionResult Home()
         {
-            return View();
+            var saunas = SaunaData.All;
+
+            return View(saunas);
         }
 
         public IActionResult Privacy()
@@ -37,7 +39,9 @@ namespace UXDesignAssignment.Controllers
 
         public IActionResult Reviews()
         {
-            return View();
+            var saunas = SaunaData.All;
+
+            return View(saunas);
         }
 
         public IActionResult FAQ()
