@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -23,20 +39,8 @@
       "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\models\\saunadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\models\\saunaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:models\\saunaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|c:\\users\\hmaccallum\\onedrive - developing it ltd\\documents\\uni\\stirling\\uxdesignemptyproject\\uxdesignassignment - gitclone\\uxdesignassignment\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01906D7C-FCC2-47F8-AD93-DCBC8086AE65}|UXDesignAssignment.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SaunaData.cs",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Models\\SaunaData.cs",
               "RelativeDocumentMoniker": "Models\\SaunaData.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SaunaEntity.cs",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Models\\SaunaEntity.cs",
               "RelativeDocumentMoniker": "Models\\SaunaEntity.cs",
@@ -110,19 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Home.cshtml",
               "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-25T10:01:43.731Z"
+              "WhenOpened": "2025-10-25T10:01:43.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -134,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -147,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SaunaFinder.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\SaunaFinder.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\SaunaFinder.cshtml",
@@ -160,44 +161,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "FAQ.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\FAQ.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\FAQ.cshtml",
               "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\FAQ.cshtml",
               "RelativeToolTip": "Views\\Home\\FAQ.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-24T20:14:03.573Z"
+              "WhenOpened": "2025-10-24T20:14:03.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Reviews.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\Reviews.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Reviews.cshtml",
-              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\Reviews.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Reviews.cshtml*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEIAAAA2AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\Reviews.cshtml",
+              "RelativeToolTip": "Views\\Home\\Reviews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-24T20:13:32.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Home\\About.cshtml*",
+              "RelativeToolTip": "Views\\Home\\About.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-24T20:12:45.334Z"
+              "WhenOpened": "2025-10-24T20:12:45.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -205,11 +208,12 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-24T20:08:53.674Z"
+              "WhenOpened": "2025-10-24T20:08:53.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -221,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hmaccallum\\OneDrive - Developing IT Ltd\\Documents\\Uni\\Stirling\\UXDesignEmptyProject\\UXDesignAssignment - GitClone\\UXDesignAssignment\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

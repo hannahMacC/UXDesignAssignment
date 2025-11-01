@@ -2,7 +2,77 @@
     ViewData["Title"] = "FAQs";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="mb-3">
+    <h1 class="display-4">Frequently Asked Questions</h1>
+</div>
+<div class="row">
+    <div class="col-lg-7">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        What does "Löyly" mean?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        Löyly is a Finnish word for the steam that rises when water is thrown onto the hot stones of a sauna stove
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Are the saunas listed on this site run by Loch and Löyly?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        No, Loch and Löyly is a website curated to easily find and review outdoor sauanas across Scotland.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        What should I bring when visiting a sauna
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        Each sauna may differ but it is a good idea to bring a swimsuit, a bottle of water, a towel for sitting on in the sauna, a towel for after to dry off and if the sauna is located next to open water maybe some water shoes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="addSuggestion" class="col-lg-5 mb-3 border rounded-4">
+        <form>
+            <div class="form-group my-3">
+                <label for="saunaName">Name</label>
+                <input type="text" class="form-control" id="saunaName" placeholder="e.g Lochside Sauna">
+            </div>
+            <div class="form-group mb-3">
+                <label for="saunaLocation">Location</label>
+                <input type="text" class="form-control" id="saunaLocation" placeholder="Town, Region">
+            </div>
+            <div class="form-group mb-3">
+                <label for="saunaWebsite">Location</label>
+                <input type="url" class="form-control" id="saunaWebsite" placeholder="https://www....">
+            </div>
+            <div class="form-group mb-3">
+                <label for="notes">Location</label>
+                <input type="text" class="form-control" id="notes" placeholder="Anything helpful (heat source, open water access, plunge pool etc.)">
+            </div>
+            <div class="form-group mb-3">
+                <label for="suggesterName">Your name</label>
+                <input type="text" class="form-control" id="suggesterName">
+            </div>
+            <div class="form-group mb-3">
+                <label for="suggesterEmail">Your Email</label>
+                <input type="email" class="form-control" id="suggesterEmail">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3 w-100">Submit</button>
+        </form>
+    </div>
 </div>
