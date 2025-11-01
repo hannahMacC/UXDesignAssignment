@@ -13,13 +13,12 @@
     <div class="row g-4 mb-3">
         <div class="col-lg-4">
             <label class="form-label">Select a Sauna</label>
-            <select id="regionFilter" class="form-select">
+            <select id="saunaFilter" class="form-select">
             </select>
         </div>
     </div>
     <div class="row g-4 mb-3">
         <div class="col-lg-7">
-            <h2 class="h5"> </h2>
             <div id="reviews" class="row g-3">
                     <article class="p-3 border rounded-4">
                         <div class="d-flex justify-content-between align-items-center mb-1">
@@ -48,6 +47,34 @@
                         <p class="mb-0">Review</p>
                     </article>
             </div>
+        </div>
+        <div id="addReview" class="col-lg-5 mb-3 border rounded-4">
+            <form>
+                <label class="form-label my-3">Select a Sauna</label>
+                <select id="saunaSelect" class="form-select">
+                </select>
+                <div class="form-group my-3">
+                    <label for="reviewerName">Name</label>
+                    <input type="text" class="form-control" id="reviewerName" placeholder="Enter your name">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="reviewerEmail">Email</label>
+                    <input type="email" class="form-control" id="reviewerEmail" placeholder="Enter your email">
+                </div>
+                <label class="form-label mb-3">Rating</label>
+                <select id="ratingSelect" class="form-select">
+                    <option value="5">5 stars</option>
+                    <option value="4">4 stars</option>
+                    <option value="3">3 stars</option>
+                    <option value="2">2 stars</option>
+                    <option value="1">1 star</option>
+                </select>
+                <div class="form-group mb-3">
+                    <label for="reviewComment">Comment</label>
+                    <input type="text" class="form-control" id="reviewComment" placeholder="Write you review here">
+                </div>
+                <button type="submit" class="btn btn-primary mb-3 w-100">Submit</button>
+            </form>
         </div>
     </div>
 
